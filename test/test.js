@@ -11,7 +11,7 @@ describe('emtase', () => {
     emitter = new EventEmitter();
   });
 
-  it('should convert an EventEmitter instance into an AsyncStreamEmitter instance', async () => {
+  it('should convert an EventEmitter instance into an AsyncStreamEmitter', async () => {
     emtase(emitter);
 
     assert.equal(!emitter._events, true);
