@@ -21,6 +21,8 @@ let server = http.createServer();
 
 // ...
 
+// Mutates the server instance but doesn't touch
+// the instance's prototype.
 emtase(server);
 
 // ...
@@ -28,7 +30,10 @@ emtase(server);
 // The Node.js HTTP server now works as an
 // AsyncStreamEmitter
 (async () => {
-  for await (let req of server.listener('request')) {
+  // Use array destructuring to get the req object.
+  // This is needed because emitter.emit(eventName, ...)
+  // can have multiple arguments.
+  for await (let [req] of server.listener('request')) {
     // ...
   }
 })();
