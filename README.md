@@ -1,7 +1,8 @@
 # emtase
 EventEmitter to AsyncStreamEmitter converter.
 
-Converts an `EventEmitter` object into a `AsyncStreamEmitter` at runtime.
+Allows an `EventEmitter` to be used as an `AsyncStreamEmitter` at runtime.
+Keeps original `EventEmitter` functionality.
 
 ## Installation
 
