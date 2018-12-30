@@ -1,0 +1,32 @@
+{
+  "name": "emtase",
+  "version": "1.0.0",
+  "description": "EventEmitter to AsyncStreamEmitter converter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha --reporter spec --timeout 10000 --slow 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SocketCluster/emtase.git"
+  },
+  "keywords": [
+    "event",
+    "emitter",
+    "async",
+    "stream",
+    "converter"
+  ],
+  "author": "Jonathan Gros-Dubois",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SocketCluster/emtase/issues"
+  },
+  "homepage": "https://github.com/SocketCluster/emtase#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "async-stream-emitter": "^1.1.0"
+  }
+}
