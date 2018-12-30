@@ -20,8 +20,6 @@ const http = require('http');
 // Normally works using server.on('request', handler);
 let server = http.createServer();
 
-// ...
-
 // Mutates the server instance but doesn't touch
 // the instance's prototype.
 emtase(server);
