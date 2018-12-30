@@ -1,7 +1,7 @@
 # emtase
 EventEmitter to AsyncStreamEmitter converter.
 
-Allows an `EventEmitter` to be used as an `AsyncStreamEmitter` at runtime.
+Allows an `EventEmitter` (https://nodejs.org/api/events.html#events_class_eventemitter) to be used as an `AsyncStreamEmitter` (https://github.com/SocketCluster/async-stream-emitter).
 Keeps original `EventEmitter` functionality.
 
 ## Installation
