@@ -13,6 +13,7 @@ function emtase(object) {
   Object.assign(object, AsyncStreamEmitter.prototype);
   AsyncStreamEmitter.call(object);
   object.emit = createStreamEmit(originalEmitMethod);
+  return object;
 }
 
 module.exports = emtase;
