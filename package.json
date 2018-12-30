@@ -1,6 +1,6 @@
 {
   "name": "emtase",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "EventEmitter to AsyncStreamEmitter converter.",
   "main": "index.js",
   "scripts": {
