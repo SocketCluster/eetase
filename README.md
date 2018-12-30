@@ -12,7 +12,7 @@ npm install emtase
 
 ## Usage example
 
-```
+```js
 const emtase = require('emtase');
 const http = require('http');
 
