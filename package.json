@@ -4,7 +4,7 @@
   "description": "EventEmitter to AsyncStreamEmitter converter.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/_mocha --reporter spec --timeout 10000 --slow 10000"
+    "test": "./node_modules/mocha/bin/_mocha --reporter spec --timeout 3000 --slow 3000"
   },
   "repository": {
     "type": "git",
