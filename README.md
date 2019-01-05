@@ -1,4 +1,4 @@
-# emtase
+# eetase
 EventEmitter to AsyncStreamEmitter converter.
 
 Allows an `EventEmitter` (https://nodejs.org/api/events.html#events_class_eventemitter) to be used as an `AsyncStreamEmitter` (https://github.com/SocketCluster/async-stream-emitter).
@@ -7,13 +7,13 @@ Keeps original `EventEmitter` functionality.
 ## Installation
 
 ```bash
-npm install emtase
+npm install eetase
 ```
 
 ## Usage example
 
 ```js
-const emtase = require('emtase');
+const eetase = require('eetase');
 const http = require('http');
 
 // The Node.js HTTP server is an EventEmitter.
@@ -22,7 +22,7 @@ let server = http.createServer();
 
 // Mutates the server instance but doesn't touch
 // the instance's prototype.
-emtase(server);
+eetase(server);
 
 // ...
 

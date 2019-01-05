@@ -1,5 +1,5 @@
 const assert = require('assert');
-const emtase = require('../index');
+const eetase = require('../index');
 
 const EventEmitter = require('events').EventEmitter;
 
@@ -21,12 +21,12 @@ function cancelAllPendingWaits() {
   }
 }
 
-describe('emtase', () => {
+describe('eetase', () => {
   let emitter;
 
   beforeEach(async () => {
     emitter = new EventEmitter();
-    emtase(emitter);
+    eetase(emitter);
   });
 
   afterEach(async () => {

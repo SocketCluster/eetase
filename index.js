@@ -8,7 +8,7 @@ function createStreamEmit(originalEmitMethod) {
   }
 }
 
-function emtase(object) {
+function eetase(object) {
   let originalEmitMethod = object.emit;
   Object.assign(object, AsyncStreamEmitter.prototype);
   AsyncStreamEmitter.call(object);
@@ -16,4 +16,4 @@ function emtase(object) {
   return object;
 }
 
-module.exports = emtase;
+module.exports = eetase;

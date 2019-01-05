@@ -1,5 +1,5 @@
 {
-  "name": "emtase",
+  "name": "eetase",
   "version": "1.0.4",
   "description": "EventEmitter to AsyncStreamEmitter converter.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SocketCluster/emtase.git"
+    "url": "git+https://github.com/SocketCluster/eetase.git"
   },
   "keywords": [
     "event",
@@ -20,9 +20,9 @@
   "author": "Jonathan Gros-Dubois",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SocketCluster/emtase/issues"
+    "url": "https://github.com/SocketCluster/eetase/issues"
   },
-  "homepage": "https://github.com/SocketCluster/emtase#readme",
+  "homepage": "https://github.com/SocketCluster/eetase#readme",
   "devDependencies": {
     "mocha": "^5.2.0"
   },
