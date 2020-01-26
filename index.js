@@ -1,4 +1,3 @@
-const EventEmitter = require('events').EventEmitter;
 const AsyncStreamEmitter = require('async-stream-emitter');
 
 function createStreamEmit(originalEmitMethod) {
@@ -9,6 +8,9 @@ function createStreamEmit(originalEmitMethod) {
 }
 
 function eetase(object) {
+  // Prevent EventEmitter from throwing on error.
+  object.on('error', () => {});
+
   let originalEmitMethod = object.emit;
   Object.assign(object, AsyncStreamEmitter.prototype);
   AsyncStreamEmitter.call(object);
