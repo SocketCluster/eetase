@@ -27,6 +27,6 @@
     "mocha": "^5.2.0"
   },
   "dependencies": {
-    "async-stream-emitter": "^3.0.3"
+    "async-stream-emitter": "^4.0.0"
   }
 }
