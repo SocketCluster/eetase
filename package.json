@@ -1,6 +1,6 @@
 {
   "name": "eetase",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "description": "EventEmitter to AsyncStreamEmitter converter.",
   "main": "index.js",
   "scripts": {
