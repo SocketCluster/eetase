@@ -1,6 +1,6 @@
 {
   "name": "eetase",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "EventEmitter to AsyncStreamEmitter converter.",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,6 @@
     "mocha": "^10.0.0"
   },
   "dependencies": {
-    "async-stream-emitter": "^6.0.1"
+    "async-stream-emitter": "^7.0.1"
   }
 }
